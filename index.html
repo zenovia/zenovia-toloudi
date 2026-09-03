@@ -257,31 +257,6 @@
   }
   .about-grid .prose p:last-child{ margin-bottom:0; }
 
-  /* ---------- Research ---------- */
-  .research-intro{
-    font-size:16px;
-    color:var(--ink-soft);
-    max-width:820px;
-    margin:0 0 36px;
-  }
-  .axes{
-    display:grid;
-    grid-template-columns:repeat(3, 1fr);
-    gap:40px;
-  }
-  .axis h3{
-    font-size:16px;
-    font-weight:700;
-    letter-spacing:-0.005em;
-    margin:0 0 10px;
-  }
-  .axis p{
-    font-size:14px;
-    line-height:1.6;
-    color:var(--ink-soft);
-    margin:0;
-  }
-
   #publications, #education, #contact{ margin-top:28px; }
 
   /* ---------- Work grid ---------- */
@@ -498,7 +473,6 @@
   /* ---------- Responsive ---------- */
   @media (max-width: 800px){
     .about-grid{ grid-template-columns:1fr; gap:32px; }
-    .axes{ grid-template-columns:1fr; gap:28px; }
     .cols{ grid-template-columns:1fr; gap:8px; }
     .grid{ grid-template-columns:repeat(2, 1fr); }
     .slideshow{ aspect-ratio:4/3; }
@@ -523,7 +497,6 @@
   <div class="navrow">
     <a class="mark" href="#top">Zenovia&nbsp;Toloudi</a>
     <nav>
-      <a href="#about">About</a>
       <a href="#research">Research</a>
       <a href="#work">Projects</a>
       <a href="#exhibitions">Exhibitions</a>
@@ -591,9 +564,9 @@
     </div>
   </section>
 
-  <!-- ===== About ===== -->
-  <section id="about" class="wrap">
-    <div class="section-head"><h2>About</h2></div>
+  <!-- ===== Research (formerly About) ===== -->
+  <section id="research" class="wrap">
+    <div class="section-head"><h2>Research</h2></div>
     <div class="about-grid">
       <dl class="facts">
         <dt>Doctorate</dt>
@@ -601,7 +574,7 @@
         <dt>Fellowships</dt>
         <dd>Fulbright; St Gaudens Memorial; MIT Art, Culture &amp; Technology</dd>
         <dt>Practice</dt>
-        <dd>35+ exhibitions &amp; public installations</dd>
+        <dd>35+ installations &amp; exhibitions</dd>
       </dl>
       <div class="prose">
         <p>
@@ -614,26 +587,6 @@
         <p>
           Zenovia merges artistic practice with architectural theory, producing site-specific installations that investigate the act of building and its relationship to lived experience. Her practice moves between the ephemeral and the permanent, exploring place, ecology, and the public realm. Working across Greece and the USA, she draws on a fascination with these contexts, where landscapes, cultural practices, and ways of making inform her work.
         </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== Research ===== -->
-  <section id="research" class="wrap">
-    <div class="section-head"><h2>Research</h2></div>
-    <p class="research-intro">Zenovia's research evolves around three axes, rooted in her doctoral research at Harvard's Graduate School of Design. Each has often been the subject of a solo exhibition.</p>
-    <div class="axes">
-      <div class="axis">
-        <h3>Metamaquette</h3>
-        <p>An exhibition-based methodology built around installations that explore cognition, perception, scale, the (im)materiality of light, subjectivity, and sensory experience.</p>
-      </div>
-      <div class="axis">
-        <h3>Technoecologies</h3>
-        <p>A visual framework for futuristic designs that reimagine the connection between people and nature — tangible approaches to bio-architecture and bio-art, relying not only on technology but on community rituals and vernacular elements of culture.</p>
-      </div>
-      <div class="axis">
-        <h3>Technoutopias</h3>
-        <p>A visual vocabulary examining architecture's role in physical environments to inspire civic identity, connecting formal elements and aesthetics with social purpose so that public space better fits the public.</p>
       </div>
     </div>
   </section>
@@ -896,7 +849,7 @@
     <div class="section-head"><h2>Education</h2></div>
     <ul class="timeline">
       <li>
-        <span class="deg">D.Des.</span>
+        <span class="deg">Doctor of Design</span>
         <span class="what">Harvard Graduate School of Design, USA</span>
       </li>
       <li>
